@@ -1,0 +1,89 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 2358milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2358"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56368"}
+{"logLevel":"info","message":"Listening on port:56368"}
+[pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 3360 ms to scan 90 urls, producing 10312 keys and 55872 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'pages.GuestPage.controlTrendyolHomePage' and 'pages.GuestPage.controlTrendyolHomePage'"}
+{"logLevel":"debug","message":"Found Trendyol sayfasının geldiğini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.MainPage.searchBoxClick' and 'pages.MainPage.searchBoxClick'"}
+{"logLevel":"debug","message":"Found Aranacak kelimeyi gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.GuestPage.waitForsecond' and 'pages.GuestPage.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.MainPage.controlSelectFilter' and 'pages.MainPage.controlSelectFilter'"}
+{"logLevel":"debug","message":"Found Filtre seçme {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.ProductsPage.controlSelectProducts' and 'pages.ProductsPage.controlSelectProducts'"}
+{"logLevel":"debug","message":"Found Random ürün seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.ProductsPage.controlShoppingDone' and 'pages.ProductsPage.controlShoppingDone'"}
+{"logLevel":"debug","message":"Found Alışverişi tamamla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.ProductsPage.controlAddToCart' and 'pages.ProductsPage.controlAddToCart'"}
+{"logLevel":"debug","message":"Found Random seçilen ürünü sepete ekleme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.ProductsPage.controlShoppingCart' and 'pages.ProductsPage.controlShoppingCart'"}
+{"logLevel":"debug","message":"Found Sepete git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.ProductsPage.addAdress' and 'pages.ProductsPage.addAdress'"}
+{"logLevel":"debug","message":"Found Adres ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.LoginPages.controlLoginPage' and 'pages.LoginPages.controlLoginPage'"}
+{"logLevel":"debug","message":"Found Giriş yap sayfasını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.MainPage.click' and 'pages.MainPage.click'"}
+{"logLevel":"debug","message":"Found Random bir yere tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.GuestPage.findLoginButton' and 'pages.GuestPage.findLoginButton'"}
+{"logLevel":"debug","message":"Found Login butonunu bul in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.GuestPage.loginClick' and 'pages.GuestPage.loginClick'"}
+{"logLevel":"debug","message":"Found Login butonuna tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pages.LoginPages.login' and 'pages.LoginPages.login'"}
+{"logLevel":"debug","message":"Found Email - şifre gir ve giriş yap in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFiltre seçme {} : public void controlSelectFilter(String brand) throws InterruptedException"}
+{"logLevel":"debug","message":"\tGiriş yap sayfasını kontrol et : public void controlLoginPage()"}
+{"logLevel":"debug","message":"\tRandom seçilen ürünü sepete ekleme : public void controlAddToCart()"}
+{"logLevel":"debug","message":"\tAdres ekle : public void addAdress()"}
+{"logLevel":"debug","message":"\tRandom ürün seçme : public void controlSelectProducts()"}
+{"logLevel":"debug","message":"\tSepete git : public void controlShoppingCart()"}
+{"logLevel":"debug","message":"\tLogin butonunu bul : public void findLoginButton()"}
+{"logLevel":"debug","message":"\tLogin butonuna tıkla : public void loginClick()"}
+{"logLevel":"debug","message":"\tAlışverişi tamamla : public void controlShoppingDone()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForsecond(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\tRandom bir yere tıklama : public void click()"}
+{"logLevel":"debug","message":"\tAranacak kelimeyi gir : public void searchBoxClick()"}
+{"logLevel":"debug","message":"\tTrendyol sayfasının geldiğini kontrol et : public void controlTrendyolHomePage()"}
+{"logLevel":"debug","message":"\tEmail - şifre gir ve giriş yap : public void login()"}
+[pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1098 ms to scan 90 urls, producing 10228 keys and 46847 values
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 23233
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eki 07, 2022 11:22:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Trendyol sayfasının geldiğini kontrol et' using 'class pages.GuestPage.controlTrendyolHomePage"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login butonunu bul' using 'class pages.GuestPage.findLoginButton"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login butonuna tıkla' using 'class pages.GuestPage.loginClick"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Giriş yap sayfasını kontrol et' using 'class pages.LoginPages.controlLoginPage"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Email - şifre gir ve giriş yap' using 'class pages.LoginPages.login"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Aranacak kelimeyi gir' using 'class pages.MainPage.searchBoxClick"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Filtre seçme {}' using 'class pages.MainPage.controlSelectFilter"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Random ürün seçme' using 'class pages.ProductsPage.controlSelectProducts"}
+24
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Random seçilen ürünü sepete ekleme' using 'class pages.ProductsPage.controlAddToCart"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Sepete git' using 'class pages.ProductsPage.controlShoppingCart"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Alışverişi tamamla' using 'class pages.ProductsPage.controlShoppingDone"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class pages.GuestPage.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Adres ekle' using 'class pages.ProductsPage.addAdress"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
